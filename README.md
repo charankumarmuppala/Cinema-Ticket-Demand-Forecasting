@@ -8,8 +8,10 @@ The project explores the factors influencing ticket sales, compares multiple reg
 
 ## Live Dashboard
 
-**Streamlit App:**  
-https://ticket-sales-forecasting.streamlit.app/
+To view the live dashboard, you can launch it locally or deploy it to Streamlit Community Cloud:
+
+- **Local:** `streamlit run app.py`
+- **Streamlit Cloud Deployment:** Connect repository `charankumarmuppala/Cinema-Ticket-Demand-Forecasting` with main file `app.py`.
 
 ---
 
