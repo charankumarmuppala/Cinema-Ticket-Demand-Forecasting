@@ -1,4 +1,4 @@
-# Ticket Sales Forecasting & Demand Analysis
+# Cinema Ticket Demand Forecasting & Analysis
 
 A comprehensive **Data Science** project that analyzes historical cinema ticket sales and builds predictive models to forecast **movie ticket demand** using machine learning and an interactive Streamlit dashboard.
 
@@ -62,7 +62,10 @@ https://ticket-sales-forecasting.streamlit.app/
 ## Project Structure
 
 ```text
-Ticket-Sales-Forecasting/
+Cinema-Ticket-Demand-Forecasting/
+│
+├── .streamlit/
+│   └── config.toml
 │
 ├── data/
 │   ├── raw/
@@ -74,28 +77,32 @@ Ticket-Sales-Forecasting/
 │       └── test_set.csv
 │
 ├── models/
-│   ├── linear_regression_pipeline.pkl
-│   ├── random_forest_pipeline.pkl
-│   ├── xgboost_pipeline.pkl
-│   └── best_model_pipeline.pkl
+│   ├── __init__.py
+│   ├── best_model.py
+│   ├── linear_regression.py
+│   ├── random_forest.py
+│   └── xgboost_model.py
 │
 ├── reports/
+│   ├── best_model_predicted_vs_actual.png
 │   ├── cleaning_summary.json
 │   ├── cleaning_summary.txt
 │   ├── feature_importance.png
 │   ├── model_comparison.csv
-│   ├── model_comparison_chart.png
-│   └── best_model_predicted_vs_actual.png
+│   └── model_comparison_chart.png
 │
 ├── src/
+│   ├── __init__.py
 │   ├── data_cleaning.py
+│   ├── evaluate.py
 │   ├── feature_engineering.py
 │   ├── preprocessing.py
-│   ├── train.py
-│   └── evaluate.py
+│   └── train.py
 │
+├── .gitignore
 ├── app.py
 ├── requirements.txt
+├── theme.py
 └── README.md
 ```
 
@@ -109,6 +116,7 @@ Ticket-Sales-Forecasting/
 * Scikit-learn
 * XGBoost
 * Streamlit
+* Plotly
 * Matplotlib
 * Joblib
 
@@ -194,12 +202,10 @@ streamlit run app.py
 
 ## Author
 
-**Omkar Pawar**
+**Charan Kumar Muppala**
 
-B.Tech Computer Science Student  
-Sardar Patel Institute of Technology, Mumbai
-
-GitHub: https://github.com/beingopmax
+* GitHub: [@charankumarmuppala](https://github.com/charankumarmuppala)
+* Email: charankumarmuppala@gmail.com
 
 ---
 
