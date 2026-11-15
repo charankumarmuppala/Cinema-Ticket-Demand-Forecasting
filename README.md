@@ -9,7 +9,7 @@ The project explores the factors influencing ticket sales, compares multiple reg
 ## Live Dashboard
 
 **Streamlit App:**  
-https://cinema-ticket-demand-forecasting.streamlit.app/
+https://cinematicketdemandforecasting.streamlit.app/
 
 ---
 
