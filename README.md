@@ -206,9 +206,3 @@ streamlit run app.py
 
 * GitHub: [@charankumarmuppala](https://github.com/charankumarmuppala)
 * Email: charankumarmuppala@gmail.com
-
----
-
-## License
-
-This project is intended for educational and research purposes.
